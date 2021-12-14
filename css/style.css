@@ -50,8 +50,20 @@ body {
 }
 
  .main_card .main_card--hero img {
+   width: 200px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 5px 5px 0 0;
+   position: absolute;
+   overflow: hidden;
+ }
+
+ .main_card .main_card--hero .image--effect {
+   position: relative;
    width: 100%;
-   object-fit: contain;
+   height: 100%;
+   background-color: var(--soft-violet);
+   opacity: 0.5;
    border-radius: 5px 5px 0 0;
  }
  
@@ -67,6 +79,11 @@ body {
    font-weight: var(--font-weight-black);
    text-align: center;
    margin: 10px 0;
+   color: var(--white);
+ }
+
+ .main_card .main_card--desc h1 span {
+   color: var(--soft-violet);
  }
 
  .main_card .main_card--desc p {
@@ -88,6 +105,7 @@ body {
     font-family: var(--font-family-lexend);
     font-size: var(--body-copy);
     font-weight: var(--font-weight-black);
+   color: var(--white);
  }
 
  .main_card .main_card--info p{
