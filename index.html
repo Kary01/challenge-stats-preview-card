@@ -2,13 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,14 +13,23 @@
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <main class="main_card">
+    <figure class="main_card--hero">
+      <img src="#" alt="">
+    </figure>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+    <section class="main_card--desc">
+      <h1>Get insights that help your business grow.</h1>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+
+      <div class="main_card--info">
+        <div>10k+ companies</div>
+        <div>314 templates</div>
+        <div>12m+ queries</div>
+      </div>
+    </section>
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
