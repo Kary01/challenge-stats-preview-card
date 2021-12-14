@@ -31,13 +31,17 @@ body {
   width: 100%;
   height: 100vh;
   font-family: var(--font-family-inter);
+  background-color: var(--very-dark-blue);
+  color: var(--slightly-transparent-white-paragraph);
 }
 
 .main_card {
   display: flex;
   flex-direction: column;
   width: 200px;
-  height: 450px;
+  height: 470px;
+  background-color: var(--dark-desaturated-blue);
+  border-radius: 5px;
 }
 
 .main_card .main_card--hero {
@@ -48,6 +52,7 @@ body {
  .main_card .main_card--hero img {
    width: 100%;
    object-fit: contain;
+   border-radius: 5px 5px 0 0;
  }
  
  .main_card .main_card--desc {
@@ -58,7 +63,7 @@ body {
 
  .main_card .main_card--desc h1 {
    font-family: var(--font-family-lexend);
-   font-size: 2rem;
+   font-size: 1.8rem;
    font-weight: var(--font-weight-black);
    text-align: center;
    margin: 10px 0;
@@ -76,7 +81,7 @@ body {
    justify-content: center;
    align-items: center;
    gap: 15px;
-   margin: 16px 0;
+   margin: 16px 0 0;
  }
 
  .main_card .main_card--info .info--num{
