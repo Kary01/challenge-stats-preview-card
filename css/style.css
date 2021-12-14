@@ -112,3 +112,45 @@ body {
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
 }
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 680px) {
+  .main_card {
+    flex-flow: row-reverse;
+    width: 600px;
+    height: 220px;
+  }
+  .main_card .main_card--hero {
+    width: 50%;
+    height: auto;
+  }
+  .main_card .main_card--hero img {
+    width: 300px;
+    height: auto;
+    border-radius: 0 5px 5px 0;
+  }
+  .main_card .main_card--hero .image--effect {
+    height: 220px;
+    border-radius: 0 5px 5px 0;
+  }
+  .main_card .main_card--desc {
+    width: 50%;
+    height: auto;
+    justify-content: space-evenly;
+    padding: 20px 30px;
+  }
+  .main_card .main_card--desc h1,
+  .main_card .main_card--desc p {
+    text-align: left;
+  }
+  .main_card .main_card--info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
