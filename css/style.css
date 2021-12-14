@@ -1,0 +1,29 @@
+:root {
+  /* Primary colors */
+  --very-dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  /* Neutral colors*/
+  --white: hsl(0, 0%, 100%);
+  --slightly-transparent-white-paragraph: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-white-heading: hsla(0, 0%, 100%, 0.6);
+  /* Tipography */
+  --body-copy: 1.5rem;
+  --font-family-inter: 'Inter', sans-serif;
+  --font-family-lexend: 'Lexend Deca', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
