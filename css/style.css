@@ -11,6 +11,8 @@
   --body-copy: 1.5rem;
   --font-family-inter: 'Inter', sans-serif;
   --font-family-lexend: 'Lexend Deca', sans-serif;
+  --font-weight-medium: 400;
+  --font-weight-black: 700;
 }
 
 * {
@@ -24,6 +26,39 @@ html {
 }
 
 body {
+  display: grid;
+  place-items: center;
   width: 100%;
   height: 100vh;
 }
+
+.main_card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 450px;
+}
+
+.main_card .main_card--hero {
+  width: 200px;
+  height: 150px;
+}
+
+ .main_card .main_card--hero img {
+   width: 100%;
+   object-fit: contain;
+ }
+ 
+ .main_card .main_card--desc {
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+ }
+
+ .main_card .main_card--desc h1 {
+   font-family: var(--font-family-lexend);
+   font-size: 2rem;
+   font-weight: var(--font-weight-black);
+   text-align: center;
+   margin: 10px 0;
+ }
