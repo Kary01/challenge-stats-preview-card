@@ -30,6 +30,7 @@ body {
   place-items: center;
   width: 100%;
   height: 100vh;
+  font-family: var(--font-family-inter);
 }
 
 .main_card {
@@ -62,3 +63,29 @@ body {
    text-align: center;
    margin: 10px 0;
  }
+
+ .main_card .main_card--desc p {
+   font-size: 1rem;
+   line-height: 16px;
+   text-align: center;
+ }
+
+ .main_card .main_card--info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   margin: 16px 0;
+ }
+
+ .main_card .main_card--info .info--num{
+    font-family: var(--font-family-lexend);
+    font-size: var(--body-copy);
+    font-weight: var(--font-weight-black);
+ }
+
+ .main_card .main_card--info p{
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+}
