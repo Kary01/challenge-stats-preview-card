@@ -24,14 +24,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot-mobile.png)
-![](./screenshot-desktop.png)
+![screenshot - mobile](./screenshot-mobile.png)
+
+![screenshot - desktop](./screenshot-desktop.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://kary01.github.io/challenge-stats-preview-card/)
+- Live Site URL: [Github Page URL here](https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-bFsavnOm3)
 
 ## My process
 
