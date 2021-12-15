@@ -120,23 +120,23 @@ body {
   color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 800px) {
   .main_card {
     flex-flow: row-reverse;
-    width: 600px;
-    height: 220px;
+    width: 800px;
+    height: 300px;
   }
   .main_card .main_card--hero {
     width: 50%;
-    height: auto;
+    height: 300px;
   }
   .main_card .main_card--hero img {
-    width: 300px;
-    height: auto;
+    width: 400px;
+    height: 300px;
     border-radius: 0 5px 5px 0;
   }
   .main_card .main_card--hero .image--effect {
-    height: 220px;
+    height: 300px;
     border-radius: 0 5px 5px 0;
   }
   .main_card .main_card--desc {
@@ -145,9 +145,18 @@ body {
     justify-content: space-evenly;
     padding: 20px 30px;
   }
+  .main_card .main_card--desc h1 {
+      font-size: 2.2rem;
+  }
+  .main_card .main_card--desc p {
+    font-size: 1.2rem;
+  }
   .main_card .main_card--desc h1,
   .main_card .main_card--desc p {
     text-align: left;
+  }
+  .main_card .main_card--info .info--num {
+    font-size: 1.8rem;
   }
   .main_card .main_card--info {
     flex-direction: row;
